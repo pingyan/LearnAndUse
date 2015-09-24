@@ -20,11 +20,11 @@ $SEARCH = "search earliest=$twmonth/$twdate/2015:00:00:00 latest=$twmonth/$twdat
 
 print $SEARCH;
 
-my $userId = '005800000037y6T';
+my $userId = '';
 
-my $base_url = 'https://splunk-api.crz.salesforce.com:8214';
-my $username = 'pyan';
-my $password = 'FENGmobile2172200359';
+my $base_url = '';
+my $username = ;
+my $password = ;
 my $app      = 'search';
 
 my $XML = new XML::Simple;
